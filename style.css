@@ -1,0 +1,118 @@
+/*
+- Paleta -
+
+Red - #F7795E;
+Yellow - #F4C057;
+Second Yellow - #FFEE73;
+Blue - #56C1F5;
+White - #EFF4F0;
+
+*/
+
+body{
+    background-color: #F7795E;
+    letter-spacing: 2px;
+    overflow-x: hidden;
+}
+
+.navbar-custom{
+    background-color: #56C1F5;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+}
+
+#header-front{
+    color:#EFF4F0;
+    font-size: 58px;
+}
+
+#info1, #info2, #info3{
+    background-color: #F4C057;
+    line-height: 2;
+    font-weight: 600;
+    font-size: 18px;
+    border-right: 5px solid #F7795E;
+    border-left: 5px solid #F7795E;
+}
+
+#info4, #info5, #info6{
+    background-color: #FFEE73;
+    line-height: 2;
+    font-weight: 600;
+    font-size: 18px;
+    border-right: 5px solid #F7795E;
+    border-left: 5px solid #F7795E;
+}
+
+#secondContainer{
+    line-height: 2;
+    font-weight: 600;
+}
+
+#socMedia{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: rgba(86, 193, 243, 0.8);
+}
+
+#fb-ico, #tw-ico, #insta-ico{
+    width: 50px;
+    cursor: pointer;
+}
+#tw-ico, #insta-ico{
+    margin-left: 30px;
+}
+
+@media only screen and (max-width : 800px) {
+    #info1, #info2, #info3, #info4, #info5, #info6{
+        margin-bottom: 50px;
+    }
+    .contact-1,.contact-2,.contact-3,.contact-4{
+        min-height: 270px;
+    }
+    .contact-container{
+        margin-bottom: 500px;
+    }
+}
+
+@media only screen and (min-width : 1600px){
+    .contact-container{
+        margin-bottom: 150px;
+    }
+}
+
+.contact-container{
+    margin-top: 100px;
+}
+
+.contact-container>div{
+    height: 520px;
+}
+
+.contact-container-header{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.contact-1,.contact-2,.contact-3,.contact-4{
+    border: 2px solid #e6e6e6;
+    border-radius: 10px;
+}
+.contact-1,.contact-3{
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.contact-2,.contact-4{
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.address-ico{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
